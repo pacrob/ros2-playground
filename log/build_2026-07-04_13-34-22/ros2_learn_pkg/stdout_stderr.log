@@ -1,0 +1,45 @@
+Consolidate compiler generated dependencies of target publisher
+[ 50%] Building CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o
+/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp:29:45: error: expected ‘;’ at end of member declaration
+   29 |     rclcpp::Publisher<std_msgs::msg::String>SharedPtr publisher_;
+      |                                             ^~~~~~~~~
+      |                                                      ;
+/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp:29:55: error: ‘publisher_’ does not name a type; did you mean ‘rmw_publisher_t’?
+   29 |     rclcpp::Publisher<std_msgs::msg::String>SharedPtr publisher_;
+      |                                                       ^~~~~~~~~~
+      |                                                       rmw_publisher_t
+/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp: In constructor ‘HelloWorldPubNode::HelloWorldPubNode()’:
+/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp:11:54: error: no matching function for call to ‘rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::Publisher()’
+   11 |     HelloWorldPubNode() : Node("hello_world_pub_node")
+      |                                                      ^
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:125:3: note: candidate: ‘rclcpp::Publisher<MessageT, AllocatorT>::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>; std::string = std::__cxx11::basic_string<char>]’
+  125 |   Publisher(
+      |   ^~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:125:3: note:   candidate expects 4 arguments, 0 provided
+/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:77:7: note: candidate: ‘rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::Publisher(const rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >&)’
+   77 | class Publisher : public PublisherBase
+      |       ^~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:77:7: note:   candidate expects 1 argument, 0 provided
+/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp:13:7: error: ‘publisher_’ was not declared in this scope; did you mean ‘rmw_publisher_t’?
+   13 |       publisher_ = this->create_publisher<std_msgs::msg::String>(
+      |       ^~~~~~~~~~
+      |       rmw_publisher_t
+/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp: In member function ‘void HelloWorldPubNode::publish_hello_world()’:
+/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp:26:7: error: ‘publisher_’ was not declared in this scope; did you mean ‘rmw_publisher_t’?
+   26 |       publisher_->publish(message);
+      |       ^~~~~~~~~~
+      |       rmw_publisher_t
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

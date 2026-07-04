@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000576] (ros2_learn_pkg) JobQueued: {'identifier': 'ros2_learn_pkg', 'dependencies': OrderedDict()}
+[0.001052] (ros2_learn_pkg) JobStarted: {'identifier': 'ros2_learn_pkg'}
+[0.018528] (ros2_learn_pkg) JobProgress: {'identifier': 'ros2_learn_pkg', 'progress': 'cmake'}
+[0.019821] (ros2_learn_pkg) JobProgress: {'identifier': 'ros2_learn_pkg', 'progress': 'build'}
+[0.021415] (ros2_learn_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pacrob/projects/learning/ros2-playground/build/ros2_learn_pkg', '--', '-j20', '-l20'], 'cwd': '/home/pacrob/projects/learning/ros2-playground/build/ros2_learn_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHONWARNINGS', 'always'), ('NVIM_CONF', '~/.config/nvim/init.vim'), ('LC_TIME', 'es_US.UTF-8'), ('USER', 'pacrob'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pacrob'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/pacrob/projects/learning/ros2-playground/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', '1.127.0'), ('NVM_BIN', '/home/pacrob/.nvm/versions/node/v22.18.0/bin'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ZSH', '/home/pacrob/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/pacrob/.nvm/versions/node/v22.18.0/include/node'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_US.UTF-8'), ('MANAGERPID', '4297'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '4473'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3007018'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/pacrob/.nvm'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/pacrob/projects/learning/ros2-playground/install'), ('LOGNAME', 'pacrob'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '10:33314'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('CLAUDE_CODE_SSE_PORT', '64079'), ('USER_ZDOTDIR', '/home/pacrob'), ('ROS_VERSION', '2'), ('USERNAME', 'pacrob'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/pacrob/.nvm/versions/node/v22.18.0/bin:/home/pacrob/.cargo/bin:/home/pacrob/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:~/.local/kitty.app/bin:/usr/local/go/bin:/home/pacrob/.foundry/bin:/home/pacrob/apps/nvim-linux64/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/vasya:@/tmp/.ICE-unix/4445,unix/vasya:/tmp/.ICE-unix/4445'), ('INVOCATION_ID', '882e1839dfee43028ea7a8533c91ebb1'), ('LC_ADDRESS', 'es_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('VSCODE_INJECTION', '1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b26da7a79e.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CDPATH', '.:..:/home/pacrob/ethereum:/home/pacrob'), ('AMENT_PREFIX_PATH', '/home/pacrob/projects/learning/ros2-playground/install/ros2_learn_pkg:/opt/ros/humble'), ('LC_NAME', 'es_US.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LC_MEASUREMENT', 'es_US.UTF-8'), ('LC_IDENTIFICATION', 'es_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pacrob/projects/learning/ros2-playground/build/ros2_learn_pkg'), ('GPG_TTY', '/dev/pts/0'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/pacrob/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('ZDOTDIR', '/home/pacrob'), ('NVM_CD_FLAGS', '-q'), ('LC_NUMERIC', 'es_US.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'es_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pacrob/projects/learning/ros2-playground/install/ros2_learn_pkg:/opt/ros/humble')]), 'shell': False}
+[0.094761] (ros2_learn_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher\x1b[0m\n'}
+[0.099399] (-) TimerEvent: {}
+[0.127132] (ros2_learn_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.199569] (-) TimerEvent: {}
+[0.299962] (-) TimerEvent: {}
+[0.400393] (-) TimerEvent: {}
+[0.500802] (-) TimerEvent: {}
+[0.601193] (-) TimerEvent: {}
+[0.701559] (-) TimerEvent: {}
+[0.801924] (-) TimerEvent: {}
+[0.902306] (-) TimerEvent: {}
+[1.002808] (-) TimerEvent: {}
+[1.103271] (-) TimerEvent: {}
+[1.203748] (-) TimerEvent: {}
+[1.304239] (-) TimerEvent: {}
+[1.404658] (-) TimerEvent: {}
+[1.505264] (-) TimerEvent: {}
+[1.605915] (-) TimerEvent: {}
+[1.706462] (-) TimerEvent: {}
+[1.806885] (-) TimerEvent: {}
+[1.907336] (-) TimerEvent: {}
+[2.007769] (-) TimerEvent: {}
+[2.108249] (-) TimerEvent: {}
+[2.208742] (-) TimerEvent: {}
+[2.309337] (-) TimerEvent: {}
+[2.409802] (-) TimerEvent: {}
+[2.510411] (-) TimerEvent: {}
+[2.559371] (ros2_learn_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp:29:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.559796] (ros2_learn_pkg) StderrLine: {'line': b'   29 |     rclcpp::Publisher<std_msgs::msg::String>\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[2.559984] (ros2_learn_pkg) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.560131] (ros2_learn_pkg) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.561034] (ros2_learn_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp:29:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.561230] (ros2_learn_pkg) StderrLine: {'line': b'   29 |     rclcpp::Publisher<std_msgs::msg::String>SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[2.561383] (ros2_learn_pkg) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.561527] (ros2_learn_pkg) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[2.563378] (ros2_learn_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KHelloWorldPubNode::HelloWorldPubNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.563732] (ros2_learn_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp:11:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::Publisher()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.563896] (ros2_learn_pkg) StderrLine: {'line': b'   11 |     HelloWorldPubNode() : Node("hello_world_pub_node"\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[2.564040] (ros2_learn_pkg) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.564182] (ros2_learn_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[2.564325] (ros2_learn_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.564463] (ros2_learn_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.564604] (ros2_learn_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.564746] (ros2_learn_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.564902] (ros2_learn_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.565043] (ros2_learn_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.565177] (ros2_learn_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.565315] (ros2_learn_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.565455] (ros2_learn_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.565638] (ros2_learn_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp:1\x1b[m\x1b[K:\n'}
+[2.565792] (ros2_learn_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:125:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<MessageT, AllocatorT>::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.565962] (ros2_learn_pkg) StderrLine: {'line': b'  125 |   \x1b[01;36m\x1b[KPublisher\x1b[m\x1b[K(\n'}
+[2.566102] (ros2_learn_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.566237] (ros2_learn_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:125:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 0 provided\n'}
+[2.566375] (ros2_learn_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:77:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::Publisher(const rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.566534] (ros2_learn_pkg) StderrLine: {'line': b'   77 | class \x1b[01;36m\x1b[KPublisher\x1b[m\x1b[K : public PublisherBase\n'}
+[2.566675] (ros2_learn_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.566818] (ros2_learn_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:77:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[2.568910] (ros2_learn_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp:13:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.569094] (ros2_learn_pkg) StderrLine: {'line': b'   13 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::String>(\n'}
+[2.569239] (ros2_learn_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.569432] (ros2_learn_pkg) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[2.588091] (ros2_learn_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HelloWorldPubNode::publish_hello_world()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.588573] (ros2_learn_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pacrob/projects/learning/ros2-playground/src/ros2_learn_pkg/src/publisher.cpp:26:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.588857] (ros2_learn_pkg) StderrLine: {'line': b'   26 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[2.589085] (ros2_learn_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.589311] (ros2_learn_pkg) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[2.610537] (-) TimerEvent: {}
+[2.710933] (-) TimerEvent: {}
+[2.811408] (-) TimerEvent: {}
+[2.911940] (-) TimerEvent: {}
+[3.012336] (-) TimerEvent: {}
+[3.112821] (-) TimerEvent: {}
+[3.209016] (ros2_learn_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1\n'}
+[3.209437] (ros2_learn_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher.dir/all] Error 2\n'}
+[3.209969] (ros2_learn_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.212912] (-) TimerEvent: {}
+[3.214717] (ros2_learn_pkg) CommandEnded: {'returncode': 2}
+[3.236198] (ros2_learn_pkg) JobEnded: {'identifier': 'ros2_learn_pkg', 'rc': 2}
+[3.247215] (-) EventReactorShutdown: {}

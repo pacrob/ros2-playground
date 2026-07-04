@@ -1,0 +1,2 @@
+Invoking command in '/home/pacrob/projects/learning/ros2-playground/build/ros2_learn_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pacrob/projects/learning/ros2-playground/build/ros2_learn_pkg -- -j20 -l20
+Invoked command in '/home/pacrob/projects/learning/ros2-playground/build/ros2_learn_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pacrob/projects/learning/ros2-playground/build/ros2_learn_pkg -- -j20 -l20
