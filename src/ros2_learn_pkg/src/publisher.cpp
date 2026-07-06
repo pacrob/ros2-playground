@@ -22,7 +22,7 @@ class HelloWorldPubNode : public rclcpp::Node
     void publish_hello_world()
     {
       auto message = std_msgs::msg::String();
-      message.data = "Hello World" + std::to_string(counter_);
+      message.data = "Hello World " + std::to_string(counter_);
       publisher_->publish(message);
       counter_++;
     }
